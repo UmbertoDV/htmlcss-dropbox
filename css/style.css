@@ -152,9 +152,48 @@ ul{
 /* 500.000 persone */
 .use-dropbox > h4{
     font-size: 3rem;
-    margin: 3rem 0;
+    margin: 7rem 0px 3rem 0px;
+    font-weight: bold;
+}
+.use-dropbox > a{
+    margin-bottom: 3rem;
 }
 
+/* Marchi */
+.row{
+    display: flex;
+}
+.col-1-3{
+    width: calc(100% / 3);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.square-logo{
+    width: 50%;
+    height: calc(100vw / 3 / 2);
+    position: relative;
+}
+.col-1-3.square-col{
+    position: relative;
+    background-color: #8ea2e1;
+}
+.square-logo img,
+.square-col-img{
+    width: 50%;
+    filter: invert();
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.grid-loghi{
+    margin-top: 200px;
+}
+.square-col{
+    overflow: auto;
+    height: calc(100vw / 3);
+}
 /* FOOTER */
 
 .footer-main {

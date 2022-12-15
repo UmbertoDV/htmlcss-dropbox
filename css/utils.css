@@ -26,3 +26,38 @@
 .pr50{
 	padding-right: 50px;
 }
+.w30{
+	width: 30%;
+}
+.w40{
+	width: 40%;
+}
+.w60{
+	width: 60%;
+}
+/* Color BG */
+.green-bg{
+	background-color: #a2d39b;
+	border: 20px solid #d1e9cd;
+}
+.violet-bg{
+	background-color: #61082b;
+}
+.orange-bg{
+	background-color: #ff1c1c;
+}
+.lightblue-bg{
+	background-color: #0093ce;
+}
+.red-bg{
+	background-color: #d5001f;
+}
+.blue-bg{
+	background-color: #0d2481;
+}
+.light-bg{
+	background-color: #b4d0e7;
+}
+.yellow-bg{
+	background-color: #ffd830;
+}
