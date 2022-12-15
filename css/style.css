@@ -9,6 +9,9 @@ header{
 main{
     margin-top: 4.563rem;
 }
+ul{
+    list-style: none;
+}
 /* Header */
 .main-header{
     display: flex;
@@ -122,4 +125,115 @@ main{
 }
 .partner > .right-partner > p{
     margin-bottom: 30px;
+}
+/* Operations */
+.more-operations{
+    margin-top: 100px;
+}
+.more-operations > h1{
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.more-operations h4{
+    font-weight: bold;
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+}
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+}
+.block{
+    width: calc(100% / 3 - 10px);
+}
+/* 500.000 persone */
+.use-dropbox > h4{
+    font-size: 3rem;
+    margin: 3rem 0;
+}
+
+/* FOOTER */
+
+.footer-main {
+	padding-top: 10px;
+	background-color: #23272a;
+}
+
+.footer-upper {
+	display: flex;
+	padding-bottom: 50px;
+	margin-bottom: 20px;
+	border-bottom: 2px solid purple;
+}
+
+.footer-main-col {
+	width: calc(100% / 3);
+}
+.footer-main-col > h1{
+	color: #7188d6;
+	font-weight: bold;
+	font-size: 40px;
+	margin: 20px 40px 20px 40px;
+}
+.lang > img {
+	height: 20px;
+}
+.lang{
+	color: white;
+	margin: 0 40px;
+}
+.socials{
+	margin: 30px 40px;
+	color: white;
+}
+.socials > i{
+	padding-right: 20px;
+}
+
+.footer-product{
+	padding: 0 40px;
+}
+.footer-product > ul > li{
+	padding-bottom: 25px;
+}
+.footer-product > ul > li > a{
+	color: white;
+	text-decoration: none;
+}
+
+.footer-side-col {
+	display: flex;
+	width: calc(100% / 3 * 2);
+}
+.footer-col > h1{
+	margin: 20px  0 20px 40px;
+	color: #7188d6;
+	font-weight: bold;
+}
+
+.footer-col {
+	margin-top: 15px;
+	width: 25%;
+}
+
+.footer-bottom {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer-bottom > div > button{
+	color: white;
+	background-color: #8ea2e1;
+	padding: 10px 30px;
+	border-radius: 20px;
+	border-style: solid;
+	border-color: #8ea2e1;
+}
+
+.footer-bottom > * {
+	padding: 5px 0px 20px 0px;
 }
