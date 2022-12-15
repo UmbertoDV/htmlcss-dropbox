@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* General */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background-color: white;
+}
+main{
+    margin-top: 4.563rem;
+}
+/* Header */
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    padding: 1.5rem 0.5rem;
+}
+.main-header ul > li{
+    display: inline-block;
+    margin-right: 15px;
+}
+.left-header, .right-header{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+/* Jumbo */
+.jumbotron{
+    background-color: #b4d0e6;
+}
+.all-jumbo{
+    max-width: 65%;
+    margin: 0 auto;
+}
+.all-jumbo > h1{
+    font-size: 5rem;
+    font-weight: bold;
+    padding-top: 40px;
+}
+.bottom-jumbo{
+    display: flex;
+    position: relative;
+    top: 80px;
+    font-size: 1.1rem;
+}
+.bottom-jumbo > .left-jumbo{
+    flex-basis: 70%;
+}
+
+/* Choices Section */
