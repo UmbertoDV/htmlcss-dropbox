@@ -53,3 +53,73 @@ main{
 }
 
 /* Choices Section */
+.choices{
+    margin-top: 150px;
+}
+.choices.container > h2{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.fatturazione > .month,
+.fatturazione > .year,
+.fatturazione > .month *,
+.fatturazione > .year *{
+    display: inline-block;
+    line-height: 20px;
+    vertical-align: middle;
+}
+.c-blue{
+    border: 5px solid #0061ff;
+}
+.c-light{
+    border: 3px solid #d0d0d3;
+}
+/* Piani */
+.piani.row{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.professional,
+.advanced,
+.enterprise{
+    border: 1px solid #d0d0d3;
+    width: calc(100% / 3 - 30px);
+    height: 700px;
+}
+.piano-team{
+    border: 1px solid #d0d0d3;
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+}
+/* Partner */
+.partner{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.partner > .left-partner{
+    flex-basis: 250%;
+}
+.partner > .right-partner{
+    margin-top: 40px;
+    padding: 60px;
+}
+.partner > .right-partner > h3{
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.partner > .right-partner > p{
+    margin-bottom: 30px;
+}

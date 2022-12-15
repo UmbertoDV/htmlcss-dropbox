@@ -1,7 +1,7 @@
 /* Utils */
 
 .container {
-	max-width: 1200px;
+	max-width: 1000px;
 	margin: 0 auto;
 }
 
@@ -9,4 +9,20 @@
 	content: '';
 	clear: both;
 	display: table;
+}
+
+.pr10{
+	padding-right: 10px;
+}
+.pr20{
+	padding-right: 20px;
+}
+.pr30{
+	padding-right: 30px;
+}
+.pr40{
+	padding-right: 40px;
+}
+.pr50{
+	padding-right: 50px;
 }
