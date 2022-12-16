@@ -36,7 +36,8 @@ ul{
 .jumbotron{
     background-color: #b4d0e6;
 }
-.all-jumbo{
+.all-jumbo,
+.all-footer{
     max-width: 65%;
     margin: 0 auto;
 }
@@ -196,42 +197,13 @@ ul{
 }
 /* FOOTER */
 
-.footer-main {
-	padding-top: 10px;
-	background-color: #23272a;
+footer {
+	padding-top: 50px;
+	background-color: #000;
 }
-
-.footer-upper {
-	display: flex;
-	padding-bottom: 50px;
-	margin-bottom: 20px;
-	border-bottom: 2px solid purple;
+.top-footer{
+    display: flex;
 }
-
-.footer-main-col {
-	width: calc(100% / 3);
-}
-.footer-main-col > h1{
-	color: #7188d6;
-	font-weight: bold;
-	font-size: 40px;
-	margin: 20px 40px 20px 40px;
-}
-.lang > img {
-	height: 20px;
-}
-.lang{
-	color: white;
-	margin: 0 40px;
-}
-.socials{
-	margin: 30px 40px;
-	color: white;
-}
-.socials > i{
-	padding-right: 20px;
-}
-
 .footer-product{
 	padding: 0 40px;
 }
@@ -243,16 +215,16 @@ ul{
 	text-decoration: none;
 }
 
-.footer-side-col {
-	display: flex;
-	width: calc(100% / 3 * 2);
-}
 .footer-col > h1{
-	margin: 20px  0 20px 40px;
-	color: #7188d6;
+	margin: 20px  0 50px 40px;
+	color: white;
 	font-weight: bold;
+    font-size: 2rem;
 }
-
+.all-footer > hr{
+    margin: 50px 0;
+    width: 20%;
+}
 .footer-col {
 	margin-top: 15px;
 	width: 25%;
@@ -260,8 +232,10 @@ ul{
 
 .footer-bottom {
 	display: flex;
-	justify-content: space-between;
+	justify-content:flex-start;
 	align-items: center;
+    gap: 10px;
+    padding-bottom: 30px;
 }
 
 .footer-bottom > div > button{
@@ -274,5 +248,5 @@ ul{
 }
 
 .footer-bottom > * {
-	padding: 5px 0px 20px 0px;
+	color: white;
 }
