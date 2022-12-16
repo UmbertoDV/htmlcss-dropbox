@@ -93,12 +93,42 @@ ul{
     justify-content: space-between;
     gap: 30px;
 }
-.professional,
-.advanced,
-.enterprise{
+.title-card{
+    line-height: 50px;
+    vertical-align: middle;
+    text-align: center;
+    border-bottom: 1px solid #d0d0d3;
+}
+.card-choice{
     border: 1px solid #d0d0d3;
     width: calc(100% / 3 - 30px);
-    height: 700px;
+}
+.subtitle-card > .euro{
+    font-weight: bold;
+}
+.details-card > hr{
+    width: 15%;
+}
+.details-card > h5{
+    font-weight: bold;
+}
+.fa-check{
+    color: blue;
+}
+.details-card{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 30px 20px 50px 20px;
+    font-size: 0.9rem;
+}
+.subtitle-card h4{
+    margin: 25px 25px;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.subtitle-card > *{
+    margin: 0 25px;
 }
 .piano-team{
     border: 1px solid #d0d0d3;
@@ -214,7 +244,6 @@ footer {
 	color: white;
 	text-decoration: none;
 }
-
 .footer-col > h1{
 	margin: 20px  0 50px 40px;
 	color: white;
